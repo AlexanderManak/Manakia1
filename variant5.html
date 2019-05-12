@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>Вариант 5</title>
+  <meta charset="utf-8">
+
+  <canvas id="smile" width="1000" height="750">
+    <p>Ваш браузер не поддерживает рисование.</p>
+  </canvas>
+
+<script type="text/javascript">
+    var myCanvas = document.getElementById('smile');
+
+     var cxt = myCanvas.getContext('2d');
+     
+	 //Линия опоры
+     cxt.moveTo(50,100);
+     cxt.lineTo(300,100);
+     cxt.lineWidth = 2;
+     cxt.stroke();
+
+	 //Зубцы
+     cxt.moveTo(70,85);
+     cxt.lineTo(55,100);
+     cxt.lineWidth = 2;
+     cxt.stroke();
+	 
+     cxt.moveTo(90,85);
+     cxt.lineTo(75,100);
+     cxt.lineWidth = 2;
+     cxt.stroke();
+	 
+     cxt.moveTo(110,85);
+     cxt.lineTo(95,100);
+     cxt.lineWidth = 2;
+     cxt.stroke();
+	 
+     cxt.moveTo(130,85);
+     cxt.lineTo(115,100);
+     cxt.lineWidth = 2;
+     cxt.stroke();
+	 
+     cxt.moveTo(150,85);
+     cxt.lineTo(135,100);
+     cxt.lineWidth = 2;
+     cxt.stroke();
+	 
+     cxt.moveTo(170,85);
+     cxt.lineTo(155,100);
+     cxt.lineWidth = 2;
+     cxt.stroke();
+	 
+     cxt.moveTo(190,85);
+     cxt.lineTo(175,100);
+     cxt.lineWidth = 2;
+     cxt.stroke();
+
+     cxt.moveTo(210,85);
+     cxt.lineTo(195,100);
+     cxt.lineWidth = 2;
+     cxt.stroke();
+
+     cxt.moveTo(230,85);
+     cxt.lineTo(215,100);
+     cxt.lineWidth = 2;
+     cxt.stroke();
+
+     cxt.moveTo(250,85);
+     cxt.lineTo(235,100);
+     cxt.lineWidth = 2;
+     cxt.stroke();
+
+     cxt.moveTo(270,85);
+     cxt.lineTo(255,100);
+     cxt.lineWidth = 2;
+     cxt.stroke();
+
+     cxt.moveTo(290,85);
+     cxt.lineTo(275,100);
+     cxt.lineWidth = 2;
+     cxt.stroke();
+	 
+	 //Нитка маятника
+     cxt.moveTo(175,100);
+     cxt.lineTo(175,200);
+     cxt.lineWidth = 2;
+     cxt.stroke();
+	 
+	 //Круг
+     cxt.beginPath();
+     cxt.arc(175,250,50,0,Math.PI*2,true);
+     cxt.closePath();
+     cxt.stroke();
+	 
+	 //1
+	 //Нитка1
+     cxt.moveTo(125,250);
+     cxt.lineTo(125,390);
+     cxt.lineWidth = 2;
+     cxt.stroke();
+	 
+	 //Блок1
+	 cxt.lineWidth = 2; 
+ 	 cxt.strokeStyle = 'black';
+	 cxt.strokeRect(110,390,30,80);
+	 
+	 //Стрелка1
+     cxt.moveTo(80,390);
+     cxt.lineTo(80,470);
+     cxt.lineWidth = 2;
+     cxt.stroke();
+	 
+     cxt.moveTo(70,410);
+     cxt.lineTo(80,390);
+     cxt.lineTo(90,410);
+     cxt.lineWidth = 2;
+     cxt.stroke();
+	
+	 //2
+	 //Нитка2
+     cxt.moveTo(225,250);
+     cxt.lineTo(225,320);
+     cxt.lineWidth = 2;
+     cxt.stroke();
+	 
+	 //Блок2
+	 cxt.lineWidth = 2; 
+ 	 cxt.strokeStyle = 'black';
+	 cxt.strokeRect(210,320,30,80);
+	 
+	 //Cтрелка2
+     cxt.moveTo(270,300);
+     cxt.lineTo(270,380);
+     cxt.lineWidth = 2;
+     cxt.stroke();
+	 
+     cxt.moveTo(260,360);
+     cxt.lineTo(270,380);
+     cxt.lineTo(280,360);
+     cxt.lineWidth = 2;
+     cxt.stroke();
+
+  </script>
+ </head>
+ <body>
+</html>
